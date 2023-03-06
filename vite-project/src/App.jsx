@@ -1,12 +1,12 @@
-import { useSelector } from 'react-redux'
 
+//components
+import { Index } from "./pages/Index"
 
 export const App = () => {
-  const {email} = useSelector(state => state.user)
+
  return(
   <div className='container'>
-    <h1>Hola Mundo</h1>
-    <p>El email en el store es: {email}</p>
+    <Index/>
   </div>
  )
 }

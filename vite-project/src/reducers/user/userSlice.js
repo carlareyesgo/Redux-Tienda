@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    email: "carlareyes@gmail.com",
+    email: "",
     fullname:"",
     token:"",
 }
