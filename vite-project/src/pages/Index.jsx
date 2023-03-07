@@ -26,11 +26,13 @@ export const Index = () => {
             dispatch(setUser({
               email: userToLog.email,
               fullName: `${userToLog.first_name} ${userToLog.last_name}`,
+              
               token: Date.now(),
             }))
             navigate("/home");
           }
         }
+
       })
   }
   return (
